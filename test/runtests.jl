@@ -1,5 +1,11 @@
+module TestRunner
 using DynamicDiscreteChoice
-using Base.Test
+using FactCheck
+import Distributions
 
-# write your own tests here
-@test 1 == 1
+const D = Distributions
+const G = General
+include("general/VariableSpace.jl")
+include("general/Transition.jl")
+
+end

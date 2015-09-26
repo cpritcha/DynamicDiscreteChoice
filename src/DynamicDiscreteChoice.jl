@@ -1,5 +1,6 @@
 module DynamicDiscreteChoice
 
-# package code goes here
+include("general/general.jl")
+include("nfxp/nfxp.jl")
 
 end # module
